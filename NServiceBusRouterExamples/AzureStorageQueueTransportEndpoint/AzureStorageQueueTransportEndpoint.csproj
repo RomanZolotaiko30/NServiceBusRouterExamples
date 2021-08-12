@@ -1,0 +1,51 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="ably.io" Version="1.2.5" />
+        <PackageReference Include="AutoMapper" Version="10.1.1" />
+        <PackageReference Include="FluentValidation" Version="10.3.0" />
+        <PackageReference Include="Gelf.Extensions.Logging" Version="2.2.0" />
+        <PackageReference Include="IdentityModel" Version="5.1.0" />
+        <PackageReference Include="MediatR" Version="9.0.0" />
+        <PackageReference Include="Microsoft.ApplicationInsights" Version="2.18.0" />
+        <PackageReference Include="Microsoft.Azure.KeyVault" Version="3.0.5" />
+        <PackageReference Include="Microsoft.Azure.ServiceBus" Version="5.1.3" />
+        <PackageReference Include="Microsoft.Azure.Services.AppAuthentication" Version="1.6.1" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.8" />
+        <PackageReference Include="NServiceBus.Bridge" Version="2.0.2" />
+        <PackageReference Include="NServiceBus.Bridge.Connector" Version="2.0.2" />
+        <PackageReference Include="NServiceBus.Newtonsoft.Json" Version="2.3.0" />
+        <PackageReference Include="NServiceBus.Router" Version="3.9.1" />
+        <PackageReference Include="NServiceBus.Router.Connector" Version="3.9.1" />
+        <PackageReference Include="NServiceBus.Transport.AzureStorageQueues" Version="10.0.2" />
+        <PackageReference Include="NServiceBus.Transport.Msmq" Version="1.1.1" />
+        <PackageReference Include="Polly" Version="7.2.2" />
+        <PackageReference Include="StackExchange.Redis" Version="2.2.62" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\NServiceBusRouterExamples.Shared\NServiceBusRouterExamples.Shared.csproj" />
+    </ItemGroup>
+
+    <PropertyGroup>
+        <ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>None</ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Reference Include="Redactus.Common">
+        <HintPath>..\NServiceBusRouterExamples.Shared\Dlls\Redactus.Common.dll</HintPath>
+      </Reference>
+      <Reference Include="Redactus.Communication.Commands">
+        <HintPath>..\NServiceBusRouterExamples.Shared\Dlls\Redactus.Communication.Commands.dll</HintPath>
+      </Reference>
+      <Reference Include="Redactus.Wfa.Common">
+        <HintPath>..\NServiceBusRouterExamples.Shared\Dlls\Redactus.Wfa.Common.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+    
+</Project>

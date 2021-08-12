@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DefaultRouterImplementation", "DefaultRouterImplementation", "{D9EF587C-3A19-4AFD-ABA2-5AC7497451B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureStorageQueueTransportEndpoint", "AzureStorageQueueTransportEndpoint\AzureStorageQueueTransportEndpoint.csproj", "{43498F65-ED22-4EE8-93B8-295186BFB80D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NServiceBusRouter", "NServiceBusRouter\NServiceBusRouter.csproj", "{61CDB377-6234-4EE7-A0CC-8D86060F3B45}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{0DBE612B-F081-415F-AA09-7FE05ACE33B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NServiceBusRouterExamples.Shared", "NServiceBusRouterExamples.Shared\NServiceBusRouterExamples.Shared.csproj", "{37431CFB-D45B-420C-82A2-B5BDCE5611C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureServiceBusTransportEndpoint", "AzureServiceBusTransportEndpoint\AzureServiceBusTransportEndpoint.csproj", "{E3BBEA61-CE6B-4A6E-810B-A7D7288A2D17}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RouterWithCustomHeaders", "RouterWithCustomHeaders", "{8AF54A5B-0673-44E1-8475-61C15F4526C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomHeadersRouter", "CustomHeadersRouter\CustomHeadersRouter.csproj", "{A8985A6B-299D-4BF4-9A4C-5C56CF6F139F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RouterWithCustomRules", "RouterWithCustomRules", "{30C6705F-544B-4AE5-821F-B48870CB1351}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RouterWithCustomRules", "RouterWithCustomRules\RouterWithCustomRules.csproj", "{9E7A3A7F-C220-40AA-A5B8-A29701A72113}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{43498F65-ED22-4EE8-93B8-295186BFB80D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43498F65-ED22-4EE8-93B8-295186BFB80D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43498F65-ED22-4EE8-93B8-295186BFB80D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43498F65-ED22-4EE8-93B8-295186BFB80D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61CDB377-6234-4EE7-A0CC-8D86060F3B45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61CDB377-6234-4EE7-A0CC-8D86060F3B45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61CDB377-6234-4EE7-A0CC-8D86060F3B45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61CDB377-6234-4EE7-A0CC-8D86060F3B45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37431CFB-D45B-420C-82A2-B5BDCE5611C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37431CFB-D45B-420C-82A2-B5BDCE5611C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37431CFB-D45B-420C-82A2-B5BDCE5611C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37431CFB-D45B-420C-82A2-B5BDCE5611C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3BBEA61-CE6B-4A6E-810B-A7D7288A2D17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3BBEA61-CE6B-4A6E-810B-A7D7288A2D17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3BBEA61-CE6B-4A6E-810B-A7D7288A2D17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3BBEA61-CE6B-4A6E-810B-A7D7288A2D17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8985A6B-299D-4BF4-9A4C-5C56CF6F139F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8985A6B-299D-4BF4-9A4C-5C56CF6F139F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8985A6B-299D-4BF4-9A4C-5C56CF6F139F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8985A6B-299D-4BF4-9A4C-5C56CF6F139F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E7A3A7F-C220-40AA-A5B8-A29701A72113}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E7A3A7F-C220-40AA-A5B8-A29701A72113}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E7A3A7F-C220-40AA-A5B8-A29701A72113}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E7A3A7F-C220-40AA-A5B8-A29701A72113}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{43498F65-ED22-4EE8-93B8-295186BFB80D} = {D9EF587C-3A19-4AFD-ABA2-5AC7497451B4}
+		{61CDB377-6234-4EE7-A0CC-8D86060F3B45} = {D9EF587C-3A19-4AFD-ABA2-5AC7497451B4}
+		{37431CFB-D45B-420C-82A2-B5BDCE5611C5} = {0DBE612B-F081-415F-AA09-7FE05ACE33B3}
+		{A8985A6B-299D-4BF4-9A4C-5C56CF6F139F} = {8AF54A5B-0673-44E1-8475-61C15F4526C1}
+		{9E7A3A7F-C220-40AA-A5B8-A29701A72113} = {30C6705F-544B-4AE5-821F-B48870CB1351}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0041715C-D45F-4E0C-AAFE-51A579613F17}
+	EndGlobalSection
+EndGlobal
