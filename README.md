@@ -1,5 +1,5 @@
 # NServiceBusRouterExamples
-AzureStorageQueueTransportEndpoint - an endpoind that is configured to fetch messages from the azure storage and send them to the router
+AzureStorageQueueTransportEndpoint - an endpoint that is configured to fetch messages from the azure storage and send them to the router
 
 AzureServiceBusTransportEndpoint - an endpoint that is configured to fetch messages from the azure service bus queue
 
